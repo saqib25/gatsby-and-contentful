@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `l13pyplihak0`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: 'Hb9VvP43yAUDA2A9wOLktAEzzMT2ZskGgS5jwwJW74g',
+      },
+    },
+  ],
 }

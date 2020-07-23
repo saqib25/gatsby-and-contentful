@@ -11,6 +11,7 @@ export default function Header(){
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/contact">contact</Link></li>
             <li><Link to="/about">About</Link></li>
+            <li><Link to="/product">products</Link></li>
 
 
         </ul>
