@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from "../component/Layout";
+
 const productTemplate = ({pageContext:{data}}) => {
     console.log(data);
     return (
@@ -11,7 +12,8 @@ const productTemplate = ({pageContext:{data}}) => {
                 <img src={data.image.fluid.src} alt={data.title} />
                 <p>{data.price}</p>
                 <p>{data.info.info}</p>
-                <button type="btn">add to cart</button>
+                <button>Add to cart</button>
+
             </section>
             </div>
             </div>
