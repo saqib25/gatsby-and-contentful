@@ -5,16 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return <div>
-      <Layout>
-
+      <Layout >
+         < div className="text-center">
           <h1>
           Hello PIAIC!
           </h1>
-          <p>
-          hello worldssssssssssssssssssssssssssssssssssssssssssss
-          </p>
-          <p>azizzzzzzzzzzzzzzzz</p>
-      
+          </div>
       </Layout>
   </div>
 }
